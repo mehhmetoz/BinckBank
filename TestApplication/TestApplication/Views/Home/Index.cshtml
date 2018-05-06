@@ -1,0 +1,27 @@
+﻿@using TestApplication.Models
+@{
+    ViewBag.Title = "Home Page";
+}
+<br />
+<br />
+Search with Zip Codes like 92134, 48234, 85254, 30222, 17121
+<br />
+<br />
+@using (Html.BeginForm("GetAdress", "Home", FormMethod.Post))
+{
+    <input type="text" name="ZipCode" id="ZipCode" />
+    <input type="submit" value="Search" />
+}
+
+<br />
+<br />
+
+    @if (Model != null)
+    {
+        @Html.Raw(Model.Adress);
+    }
+
+     
+    
+
+
