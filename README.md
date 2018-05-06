@@ -14,6 +14,6 @@
 
 2-In progress
 
-3- Run the TestApplication locally. It is calling rest API for given zipcode input returns adress.
+3- Run the TestApplication locally. It is calling rest API for given zipcode and returns adress.
 
 4-In progress
